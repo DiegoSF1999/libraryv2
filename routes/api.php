@@ -25,6 +25,8 @@ Route::apiResources([
     'borrows' => 'BorrowsController'
 ]);
 
+Route::POST('login', 'UsersController@login');
+
 // Route::GET('borrows', function(){
 //         $user = users::findOrFail(1);
        
